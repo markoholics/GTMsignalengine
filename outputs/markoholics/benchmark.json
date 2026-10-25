@@ -1,5 +1,6 @@
 {
   "model": "configured-model (sample)",
+  "measured": false,
   "notes": "Illustrative sample results.",
   "results": [
     {

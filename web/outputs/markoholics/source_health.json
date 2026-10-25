@@ -1,0 +1,44 @@
+{
+  "sources": [
+    {
+      "name": "Benchmark (LLM category prompts)",
+      "type": "model",
+      "status": "available",
+      "records": 5,
+      "last_checked": "2026-10-25",
+      "note": "Sample results; swap for a real run."
+    },
+    {
+      "name": "VOC verbatims",
+      "type": "customer voice",
+      "status": "available",
+      "records": 18,
+      "last_checked": "2026-10-25",
+      "note": "Small sample; confidence capped at medium."
+    },
+    {
+      "name": "Reviews",
+      "type": "marketplace",
+      "status": "skipped",
+      "records": 0,
+      "last_checked": "n/a",
+      "note": "No review source connected."
+    },
+    {
+      "name": "Screenshots",
+      "type": "visual proof",
+      "status": "skipped",
+      "records": 0,
+      "last_checked": "n/a",
+      "note": "Not collected."
+    },
+    {
+      "name": "Ads",
+      "type": "paid",
+      "status": "skipped",
+      "records": 0,
+      "last_checked": "n/a",
+      "note": "No ad account connected."
+    }
+  ]
+}

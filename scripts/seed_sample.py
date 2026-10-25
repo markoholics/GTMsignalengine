@@ -16,7 +16,7 @@ def w(name, obj):
 
 w("project.json", {
     "brand": "Markoholics", "slug": "markoholics", "category": "AI-native GTM agency for tech, AI & SaaS startups",
-    "website": "", "model": "configured-model (sample)", "status": "sample_data",
+    "website": "", "aliases": [], "model": "configured-model (sample)", "status": "sample_data",
     "generated_at": "2026-10-25", "competitors": ["SyncGTM", "TripleDart", "GrowthSpree", "UnboundB2B"],
     "sample": True,
     "disclaimer": "Sample data: illustrative placeholders, not measured results. Replace outputs/markoholics/*.json with real pipeline output.",
@@ -95,7 +95,7 @@ prompts = [
     ("organic_prompt_004", "What should a GTM agency retainer include for a SaaS startup?", True, ["GrowthSpree"], False),
     ("organic_prompt_005", "How do I measure pipeline ROI from a GTM agency?", False, [], False),
 ]
-w("benchmark.json", {"model": "configured-model (sample)", "notes": "Illustrative sample results.", "results": [
+w("benchmark.json", {"model": "configured-model (sample)", "measured": False, "notes": "Illustrative sample results.", "results": [
     {"id": i, "prompt": p, "brand_mentioned": m, "competitors": c, "owned_source_cited": o,
      "answer_excerpt": "Sample placeholder, not a real model answer. Competitor mentions are illustrative, not observed."} for i, p, m, c, o in prompts]})
 

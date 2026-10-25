@@ -129,6 +129,8 @@ def benchmark(p: Project) -> None:
         ui.empty("benchmark")
         return
     m = overview_metrics(p)
+    if b.get("measured"):
+        st.markdown(ui.badge("Measured run", "good") + f' <span class="gtm-muted">{ui.e(b.get("run_at", ""))}</span>', unsafe_allow_html=True)
     ui.metric_row([("Model", m["model"], "Configured"), ("Prompts", m["prompts_tested"], "Unbranded"),
                    ("Mention rate", _pct(m["mention_rate"]), "Brand named in answer"),
                    ("Owned citation rate", _pct(m["owned_rate"]), "Own domain cited")])
@@ -143,7 +145,9 @@ def benchmark(p: Project) -> None:
                         f'&nbsp; Owned source cited: {ui.badge("yes", "good") if r.get("owned_source_cited") else ui.badge("no", "bad")}',
                         unsafe_allow_html=True)
             st.markdown(f'**Competitors surfaced:** {", ".join(r.get("competitors", [])) or "none"}')
-            if r.get("answer_excerpt"):
+            if r.get("answer_full"):
+                st.markdown(r["answer_full"])
+            elif r.get("answer_excerpt"):
                 st.caption(r["answer_excerpt"])
 
 

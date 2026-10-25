@@ -1,0 +1,34 @@
+{
+  "prompts": [
+    {
+      "id": "pp_01",
+      "category": "Benchmark",
+      "purpose": "Best partners",
+      "prompt": "List the best {category} agencies for {audience}. Give a short reason for each."
+    },
+    {
+      "id": "pp_02",
+      "category": "Benchmark",
+      "purpose": "How-to",
+      "prompt": "How do I {goal} with no dedicated team? Give practical steps."
+    },
+    {
+      "id": "pp_03",
+      "category": "Benchmark",
+      "purpose": "Comparison",
+      "prompt": "Compare agency vs in-house for {category}. When does each make sense?"
+    },
+    {
+      "id": "pp_04",
+      "category": "Content",
+      "purpose": "FAQ draft",
+      "prompt": "Write an FAQ for {brand} answering: pricing, scope, getting started, results. Use only facts I supply."
+    },
+    {
+      "id": "pp_05",
+      "category": "Content",
+      "purpose": "Case study",
+      "prompt": "Turn these notes into a case study: context, approach, measured result, lessons. Do not invent numbers."
+    }
+  ]
+}
