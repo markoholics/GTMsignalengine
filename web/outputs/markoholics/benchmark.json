@@ -1,0 +1,57 @@
+{
+  "model": "configured-model (sample)",
+  "measured": false,
+  "notes": "Illustrative sample results.",
+  "results": [
+    {
+      "id": "organic_prompt_001",
+      "prompt": "What are the best GTM agencies for B2B SaaS and AI startups?",
+      "brand_mentioned": true,
+      "competitors": [
+        "SyncGTM",
+        "TripleDart"
+      ],
+      "owned_source_cited": false,
+      "answer_excerpt": "Sample placeholder, not a real model answer. Competitor mentions are illustrative, not observed."
+    },
+    {
+      "id": "organic_prompt_002",
+      "prompt": "How do I build a go-to-market strategy for an AI startup with no marketing team?",
+      "brand_mentioned": false,
+      "competitors": [
+        "GrowthSpree"
+      ],
+      "owned_source_cited": false,
+      "answer_excerpt": "Sample placeholder, not a real model answer. Competitor mentions are illustrative, not observed."
+    },
+    {
+      "id": "organic_prompt_003",
+      "prompt": "GTM agency vs in-house growth team for an early-stage SaaS startup?",
+      "brand_mentioned": true,
+      "competitors": [
+        "TripleDart",
+        "UnboundB2B"
+      ],
+      "owned_source_cited": false,
+      "answer_excerpt": "Sample placeholder, not a real model answer. Competitor mentions are illustrative, not observed."
+    },
+    {
+      "id": "organic_prompt_004",
+      "prompt": "What should a GTM agency retainer include for a SaaS startup?",
+      "brand_mentioned": true,
+      "competitors": [
+        "GrowthSpree"
+      ],
+      "owned_source_cited": false,
+      "answer_excerpt": "Sample placeholder, not a real model answer. Competitor mentions are illustrative, not observed."
+    },
+    {
+      "id": "organic_prompt_005",
+      "prompt": "How do I measure pipeline ROI from a GTM agency?",
+      "brand_mentioned": false,
+      "competitors": [],
+      "owned_source_cited": false,
+      "answer_excerpt": "Sample placeholder, not a real model answer. Competitor mentions are illustrative, not observed."
+    }
+  ]
+}

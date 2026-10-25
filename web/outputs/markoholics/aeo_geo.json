@@ -1,0 +1,170 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "question": "What does an AI-native GTM agency cost for a SaaS startup?",
+      "intent": "pricing",
+      "voc_backed": true
+    },
+    {
+      "id": "q2",
+      "question": "How do I start a GTM motion at a seed-stage SaaS startup with no marketing team?",
+      "intent": "getting started",
+      "voc_backed": true
+    },
+    {
+      "id": "q3",
+      "question": "What pipeline results can B2B SaaS startups expect from a GTM agency?",
+      "intent": "proof",
+      "voc_backed": true
+    },
+    {
+      "id": "q4",
+      "question": "SEO, outbound or paid first for an early-stage AI startup?",
+      "intent": "channel choice",
+      "voc_backed": true
+    },
+    {
+      "id": "q5",
+      "question": "GTM agency vs in-house growth hire: when to switch?",
+      "intent": "comparison",
+      "voc_backed": true
+    }
+  ],
+  "content_gaps": [
+    "Pricing explainer",
+    "First 30 days playbook",
+    "Case study library",
+    "Channel chooser",
+    "Agency vs in-house guide"
+  ],
+  "schema_opportunities": [
+    {
+      "type": "FAQPage",
+      "page": "Pricing",
+      "why": "Answer cost and scope questions directly"
+    },
+    {
+      "type": "HowTo",
+      "page": "Getting started",
+      "why": "Step-by-step onboarding"
+    },
+    {
+      "type": "Organization",
+      "page": "Home",
+      "why": "Entity clarity for answer engines"
+    },
+    {
+      "type": "Service",
+      "page": "Services",
+      "why": "Describe offerings"
+    },
+    {
+      "type": "Article",
+      "page": "Blog",
+      "why": "Authorship and dates"
+    },
+    {
+      "type": "Review",
+      "page": "Case studies",
+      "why": "Only once real reviews are collected"
+    },
+    {
+      "type": "BreadcrumbList",
+      "page": "Site-wide",
+      "why": "Structure"
+    }
+  ],
+  "briefs": [
+    {
+      "title": "AI-native GTM agency pricing explained",
+      "audience": "Founders comparing options",
+      "outline": [
+        "What drives cost",
+        "Tier-by-tier scope",
+        "What is not included",
+        "How to budget"
+      ]
+    },
+    {
+      "title": "Your first 30 days of GTM",
+      "audience": "Teams with no marketing function",
+      "outline": [
+        "Week 1 foundations",
+        "Week 2 channel test",
+        "Week 3 measure",
+        "Week 4 decide"
+      ]
+    },
+    {
+      "title": "Case study library",
+      "audience": "Skeptical buyers",
+      "outline": [
+        "Context",
+        "Approach",
+        "Measured result",
+        "What we would do differently"
+      ]
+    },
+    {
+      "title": "SEO vs paid first",
+      "audience": "Budget-constrained founders",
+      "outline": [
+        "Decision criteria",
+        "Time to signal",
+        "Budget thresholds"
+      ]
+    },
+    {
+      "title": "Agency vs in-house",
+      "audience": "Scaling startups",
+      "outline": [
+        "Cost model",
+        "Capability gaps",
+        "Switch triggers"
+      ]
+    }
+  ],
+  "answer_assets": [
+    {
+      "id": "aeo_gap_001",
+      "title": "Pricing & scope FAQ block",
+      "why": "Pricing questions need clear brand-owned answers near the offer.",
+      "owner": "Near pricing section",
+      "lane": "build_now",
+      "impact": "high"
+    },
+    {
+      "id": "aeo_gap_002",
+      "title": "Getting-started chooser",
+      "why": "Uncertainty about where to begin raises first-call friction.",
+      "owner": "Near CTA",
+      "lane": "monitor_later",
+      "impact": "low"
+    },
+    {
+      "id": "aeo_gap_003",
+      "title": "Results & proof block",
+      "why": "Buyers want measurable proof, not adjectives.",
+      "owner": "Near claims section",
+      "lane": "needs_reviews",
+      "impact": "unknown"
+    },
+    {
+      "id": "aeo_gap_004",
+      "title": "Neutral comparison page",
+      "why": "Handle comparison demand with neutral criteria and owned facts, not unverified competitor claims.",
+      "owner": "Content hub",
+      "lane": "needs_evidence",
+      "impact": "low"
+    },
+    {
+      "id": "aeo_gap_005",
+      "title": "Channel chooser",
+      "why": "Reduces channel-choice paralysis with guided criteria.",
+      "owner": "Content hub",
+      "lane": "monitor_later",
+      "impact": "low"
+    }
+  ]
+}

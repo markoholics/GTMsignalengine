@@ -1,0 +1,60 @@
+{
+  "executive_summary": "Sample: Markoholics (AI-native GTM agency) appears in some, not all, category answers in this illustrative benchmark. No owned-source references were observed, so owned authority is the main gap to investigate.",
+  "authority_gaps": [
+    {
+      "hypothesis": "Detected competitors may be more strongly associated with generic category recommendation terms in this model's answers.",
+      "confidence": "medium"
+    },
+    {
+      "hypothesis": "No owned-source citations were observed, so brand-owned category authority is not visible in these answers.",
+      "confidence": "medium"
+    },
+    {
+      "hypothesis": "Missing reviews, case studies, or third-party proof may lower confidence in authority-related recommendations.",
+      "confidence": "medium"
+    }
+  ],
+  "recommended_actions": [
+    {
+      "title": "Best GTM agency for SaaS & AI startups category page",
+      "detail": "Improve organic category-answer inclusion in future model-specific benchmark tests.",
+      "owner": "GEO/AEO",
+      "lane": "build_now",
+      "evidence": [
+        "organic_gap_explainer"
+      ]
+    },
+    {
+      "title": "AI-native GTM agency FAQ page",
+      "detail": "Improve organic category-answer inclusion in future model-specific benchmark tests.",
+      "owner": "GEO/AEO",
+      "lane": "build_now",
+      "evidence": [
+        "organic_prompt_001"
+      ]
+    },
+    {
+      "title": "Neutral comparison page",
+      "detail": "Handle comparison demand with neutral criteria and owned facts.",
+      "owner": "GEO/AEO",
+      "lane": "needs_evidence",
+      "evidence": [
+        "organic_prompt_001",
+        "organic_prompt_003"
+      ],
+      "impact": "low"
+    },
+    {
+      "title": "Review proof block, only after reviews are collected",
+      "detail": "Do not publish proof until real reviews exist.",
+      "owner": "Trust/Reviews",
+      "lane": "needs_reviews"
+    },
+    {
+      "title": "FAQPage/Service/HowTo schema support",
+      "detail": "Add structured data once the pages above exist.",
+      "owner": "GEO/AEO",
+      "lane": "build_now"
+    }
+  ]
+}
