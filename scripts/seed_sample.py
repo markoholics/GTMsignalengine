@@ -16,7 +16,7 @@ def w(name, obj):
 
 w("project.json", {
     "brand": "Markoholics", "slug": "markoholics", "category": "AI-native GTM agency for tech, AI & SaaS startups",
-    "website": "", "aliases": [], "model": "configured-model (sample)", "status": "sample_data",
+    "website": "markoholics.com", "aliases": [], "model": "configured-model (sample)", "status": "sample_data",
     "generated_at": "2026-10-25", "competitors": ["SyncGTM", "TripleDart", "GrowthSpree", "UnboundB2B"],
     "sample": True,
     "disclaimer": "Sample data: illustrative placeholders, not measured results. Replace outputs/markoholics/*.json with real pipeline output.",
