@@ -1,0 +1,16 @@
+{
+  "brand": "Markoholics",
+  "slug": "markoholics",
+  "category": "Growth marketing & GTM",
+  "website": "",
+  "model": "configured-model (sample)",
+  "status": "sample_data",
+  "generated_at": "2026-10-25",
+  "competitors": [
+    "Sample Competitor A",
+    "Sample Competitor B",
+    "Sample Competitor C"
+  ],
+  "sample": true,
+  "disclaimer": "Sample data: illustrative placeholders, not measured results. Replace outputs/markoholics/*.json with real pipeline output."
+}

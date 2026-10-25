@@ -1,0 +1,31 @@
+{
+  "next_best_actions": [
+    "Best growth marketing partner category page",
+    "Growth marketing FAQ page",
+    "Pricing & scope FAQ block",
+    "Getting-started playbook",
+    "Neutral comparison table, with claims verified before publishing"
+  ],
+  "sections": [
+    {
+      "heading": "Situation",
+      "body": [
+        "Sample data only. Replace with findings from a real benchmark and VOC run."
+      ]
+    },
+    {
+      "heading": "Where to win",
+      "body": [
+        "Own the answers to pricing, getting-started, proof, channel choice and agency-vs-in-house questions."
+      ]
+    },
+    {
+      "heading": "Guardrails",
+      "body": [
+        "Benchmark results are model-specific.",
+        "Do not publish competitor claims without evidence.",
+        "Do not publish proof before reviews or case studies exist."
+      ]
+    }
+  ]
+}

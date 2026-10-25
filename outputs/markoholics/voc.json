@@ -1,0 +1,191 @@
+{
+  "confidence": "medium",
+  "records": [
+    {
+      "id": "voc_001",
+      "source": "sample",
+      "theme": "Pricing & what's included",
+      "text": "Hard to tell what the starter tier actually includes.",
+      "sentiment": "neutral"
+    },
+    {
+      "id": "voc_002",
+      "source": "sample",
+      "theme": "Pricing & what's included",
+      "text": "Is reporting extra or bundled?",
+      "sentiment": "neutral"
+    },
+    {
+      "id": "voc_003",
+      "source": "sample",
+      "theme": "Pricing & what's included",
+      "text": "Wish pricing was on one page.",
+      "sentiment": "neutral"
+    },
+    {
+      "id": "voc_004",
+      "source": "sample",
+      "theme": "Pricing & what's included",
+      "text": "Unclear if setup is billed separately.",
+      "sentiment": "neutral"
+    },
+    {
+      "id": "voc_005",
+      "source": "sample",
+      "theme": "Pricing & what's included",
+      "text": "What is the minimum commitment?",
+      "sentiment": "neutral"
+    },
+    {
+      "id": "voc_006",
+      "source": "sample",
+      "theme": "Getting started",
+      "text": "Where do I begin with no marketing team?",
+      "sentiment": "neutral"
+    },
+    {
+      "id": "voc_007",
+      "source": "sample",
+      "theme": "Getting started",
+      "text": "What is the first 30 days like?",
+      "sentiment": "neutral"
+    },
+    {
+      "id": "voc_008",
+      "source": "sample",
+      "theme": "Getting started",
+      "text": "Do I need analytics set up first?",
+      "sentiment": "neutral"
+    },
+    {
+      "id": "voc_009",
+      "source": "sample",
+      "theme": "Getting started",
+      "text": "How long until I see anything?",
+      "sentiment": "neutral"
+    },
+    {
+      "id": "voc_010",
+      "source": "sample",
+      "theme": "Proof & results",
+      "text": "Any case studies for small B2B?",
+      "sentiment": "neutral"
+    },
+    {
+      "id": "voc_011",
+      "source": "sample",
+      "theme": "Proof & results",
+      "text": "Are the results typical or cherry-picked?",
+      "sentiment": "neutral"
+    },
+    {
+      "id": "voc_012",
+      "source": "sample",
+      "theme": "Proof & results",
+      "text": "How do you measure success?",
+      "sentiment": "neutral"
+    },
+    {
+      "id": "voc_013",
+      "source": "sample",
+      "theme": "Proof & results",
+      "text": "Looking for numbers, not adjectives.",
+      "sentiment": "neutral"
+    },
+    {
+      "id": "voc_014",
+      "source": "sample",
+      "theme": "Tool & channel choice",
+      "text": "SEO or paid first on a tight budget?",
+      "sentiment": "neutral"
+    },
+    {
+      "id": "voc_015",
+      "source": "sample",
+      "theme": "Tool & channel choice",
+      "text": "Is LinkedIn worth it for us?",
+      "sentiment": "neutral"
+    },
+    {
+      "id": "voc_016",
+      "source": "sample",
+      "theme": "Tool & channel choice",
+      "text": "Too many tools, which ones matter?",
+      "sentiment": "neutral"
+    },
+    {
+      "id": "voc_017",
+      "source": "sample",
+      "theme": "Agency vs in-house",
+      "text": "At what size does in-house make sense?",
+      "sentiment": "neutral"
+    },
+    {
+      "id": "voc_018",
+      "source": "sample",
+      "theme": "Agency vs in-house",
+      "text": "Hidden costs of hiring a head of growth?",
+      "sentiment": "neutral"
+    }
+  ],
+  "themes": [
+    {
+      "name": "Pricing & what's included",
+      "volume": 5,
+      "question": "What does it cost and what do I get at each tier?",
+      "owner": "Product Page",
+      "record_ids": [
+        "voc_001",
+        "voc_002",
+        "voc_003",
+        "voc_004",
+        "voc_005"
+      ]
+    },
+    {
+      "name": "Getting started",
+      "volume": 4,
+      "question": "How do I get started and what should I do first?",
+      "owner": "Product Page",
+      "record_ids": [
+        "voc_006",
+        "voc_007",
+        "voc_008",
+        "voc_009"
+      ]
+    },
+    {
+      "name": "Proof & results",
+      "volume": 4,
+      "question": "What results can I realistically expect?",
+      "owner": "Trust/Reviews",
+      "record_ids": [
+        "voc_010",
+        "voc_011",
+        "voc_012",
+        "voc_013"
+      ]
+    },
+    {
+      "name": "Tool & channel choice",
+      "volume": 3,
+      "question": "Which channel or tool should I prioritise first?",
+      "owner": "Creative",
+      "record_ids": [
+        "voc_014",
+        "voc_015",
+        "voc_016"
+      ]
+    },
+    {
+      "name": "Agency vs in-house",
+      "volume": 2,
+      "question": "Should I hire an agency or build in-house?",
+      "owner": "Content",
+      "record_ids": [
+        "voc_017",
+        "voc_018"
+      ]
+    }
+  ]
+}
