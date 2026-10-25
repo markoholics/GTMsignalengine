@@ -1,5 +1,5 @@
 {
-  "executive_summary": "Sample: Markoholics appears in some, not all, category answers in this illustrative benchmark. No owned-source references were observed, so owned authority is the main gap to investigate.",
+  "executive_summary": "Sample: Markoholics (AI-native GTM agency) appears in some, not all, category answers in this illustrative benchmark. No owned-source references were observed, so owned authority is the main gap to investigate.",
   "authority_gaps": [
     {
       "hypothesis": "Detected competitors may be more strongly associated with generic category recommendation terms in this model's answers.",
@@ -16,7 +16,7 @@
   ],
   "recommended_actions": [
     {
-      "title": "Best growth marketing partner category page",
+      "title": "Best GTM agency for SaaS & AI startups category page",
       "detail": "Improve organic category-answer inclusion in future model-specific benchmark tests.",
       "owner": "GEO/AEO",
       "lane": "build_now",
@@ -25,7 +25,7 @@
       ]
     },
     {
-      "title": "Growth marketing FAQ page",
+      "title": "AI-native GTM agency FAQ page",
       "detail": "Improve organic category-answer inclusion in future model-specific benchmark tests.",
       "owner": "GEO/AEO",
       "lane": "build_now",

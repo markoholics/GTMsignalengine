@@ -4,53 +4,53 @@
   "results": [
     {
       "id": "organic_prompt_001",
-      "prompt": "What are the best growth marketing partners for B2B startups?",
+      "prompt": "What are the best GTM agencies for B2B SaaS and AI startups?",
       "brand_mentioned": true,
       "competitors": [
-        "Sample Competitor A",
-        "Sample Competitor B"
+        "SyncGTM",
+        "TripleDart"
       ],
       "owned_source_cited": false,
-      "answer_excerpt": "Sample placeholder, not a real model answer."
+      "answer_excerpt": "Sample placeholder, not a real model answer. Competitor mentions are illustrative, not observed."
     },
     {
       "id": "organic_prompt_002",
-      "prompt": "How do I build a go-to-market strategy with no marketing team?",
+      "prompt": "How do I build a go-to-market strategy for an AI startup with no marketing team?",
       "brand_mentioned": false,
       "competitors": [
-        "Sample Competitor A"
+        "GrowthSpree"
       ],
       "owned_source_cited": false,
-      "answer_excerpt": "Sample placeholder, not a real model answer."
+      "answer_excerpt": "Sample placeholder, not a real model answer. Competitor mentions are illustrative, not observed."
     },
     {
       "id": "organic_prompt_003",
-      "prompt": "Agency vs in-house marketing for an early-stage startup?",
+      "prompt": "GTM agency vs in-house growth team for an early-stage SaaS startup?",
       "brand_mentioned": true,
       "competitors": [
-        "Sample Competitor B",
-        "Sample Competitor C"
+        "TripleDart",
+        "UnboundB2B"
       ],
       "owned_source_cited": false,
-      "answer_excerpt": "Sample placeholder, not a real model answer."
+      "answer_excerpt": "Sample placeholder, not a real model answer. Competitor mentions are illustrative, not observed."
     },
     {
       "id": "organic_prompt_004",
-      "prompt": "What should a growth marketing retainer include?",
+      "prompt": "What should a GTM agency retainer include for a SaaS startup?",
       "brand_mentioned": true,
       "competitors": [
-        "Sample Competitor A"
+        "GrowthSpree"
       ],
       "owned_source_cited": false,
-      "answer_excerpt": "Sample placeholder, not a real model answer."
+      "answer_excerpt": "Sample placeholder, not a real model answer. Competitor mentions are illustrative, not observed."
     },
     {
       "id": "organic_prompt_005",
-      "prompt": "How do I measure ROI from content marketing?",
+      "prompt": "How do I measure pipeline ROI from a GTM agency?",
       "brand_mentioned": false,
       "competitors": [],
       "owned_source_cited": false,
-      "answer_excerpt": "Sample placeholder, not a real model answer."
+      "answer_excerpt": "Sample placeholder, not a real model answer. Competitor mentions are illustrative, not observed."
     }
   ]
 }

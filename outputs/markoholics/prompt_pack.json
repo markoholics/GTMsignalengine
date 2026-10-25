@@ -4,7 +4,7 @@
       "id": "pp_01",
       "category": "Benchmark",
       "purpose": "Best partners",
-      "prompt": "List the best {category} partners for {audience}. Give a short reason for each."
+      "prompt": "List the best {category} agencies for {audience}. Give a short reason for each."
     },
     {
       "id": "pp_02",

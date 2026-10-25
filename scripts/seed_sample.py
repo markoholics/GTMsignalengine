@@ -15,9 +15,9 @@ def w(name, obj):
 
 
 w("project.json", {
-    "brand": "Markoholics", "slug": "markoholics", "category": "Growth marketing & GTM",
+    "brand": "Markoholics", "slug": "markoholics", "category": "AI-native GTM agency for tech, AI & SaaS startups",
     "website": "", "model": "configured-model (sample)", "status": "sample_data",
-    "generated_at": "2026-10-25", "competitors": ["Sample Competitor A", "Sample Competitor B", "Sample Competitor C"],
+    "generated_at": "2026-10-25", "competitors": ["SyncGTM", "TripleDart", "GrowthSpree", "UnboundB2B"],
     "sample": True,
     "disclaimer": "Sample data: illustrative placeholders, not measured results. Replace outputs/markoholics/*.json with real pipeline output.",
 })
@@ -56,11 +56,11 @@ w("voc.json", {"confidence": "medium", "records": recs, "themes": [
 
 w("aeo_geo.json", {
     "questions": [
-        {"id": "q1", "question": "What does a growth marketing partner typically cost?", "intent": "pricing", "voc_backed": True},
-        {"id": "q2", "question": "How do I start a GTM motion with no marketing team?", "intent": "getting started", "voc_backed": True},
-        {"id": "q3", "question": "What results can B2B startups expect from growth marketing?", "intent": "proof", "voc_backed": True},
-        {"id": "q4", "question": "SEO or paid first on a small budget?", "intent": "channel choice", "voc_backed": True},
-        {"id": "q5", "question": "Agency vs in-house marketing: when to switch?", "intent": "comparison", "voc_backed": True},
+        {"id": "q1", "question": "What does an AI-native GTM agency cost for a SaaS startup?", "intent": "pricing", "voc_backed": True},
+        {"id": "q2", "question": "How do I start a GTM motion at a seed-stage SaaS startup with no marketing team?", "intent": "getting started", "voc_backed": True},
+        {"id": "q3", "question": "What pipeline results can B2B SaaS startups expect from a GTM agency?", "intent": "proof", "voc_backed": True},
+        {"id": "q4", "question": "SEO, outbound or paid first for an early-stage AI startup?", "intent": "channel choice", "voc_backed": True},
+        {"id": "q5", "question": "GTM agency vs in-house growth hire: when to switch?", "intent": "comparison", "voc_backed": True},
     ],
     "content_gaps": ["Pricing explainer", "First 30 days playbook", "Case study library", "Channel chooser", "Agency vs in-house guide"],
     "schema_opportunities": [
@@ -73,7 +73,7 @@ w("aeo_geo.json", {
         {"type": "BreadcrumbList", "page": "Site-wide", "why": "Structure"},
     ],
     "briefs": [
-        {"title": "Growth marketing pricing explained", "audience": "Founders comparing options", "outline": ["What drives cost", "Tier-by-tier scope", "What is not included", "How to budget"]},
+        {"title": "AI-native GTM agency pricing explained", "audience": "Founders comparing options", "outline": ["What drives cost", "Tier-by-tier scope", "What is not included", "How to budget"]},
         {"title": "Your first 30 days of GTM", "audience": "Teams with no marketing function", "outline": ["Week 1 foundations", "Week 2 channel test", "Week 3 measure", "Week 4 decide"]},
         {"title": "Case study library", "audience": "Skeptical buyers", "outline": ["Context", "Approach", "Measured result", "What we would do differently"]},
         {"title": "SEO vs paid first", "audience": "Budget-constrained founders", "outline": ["Decision criteria", "Time to signal", "Budget thresholds"]},
@@ -89,32 +89,32 @@ w("aeo_geo.json", {
 })
 
 prompts = [
-    ("organic_prompt_001", "What are the best growth marketing partners for B2B startups?", True, ["Sample Competitor A", "Sample Competitor B"], False),
-    ("organic_prompt_002", "How do I build a go-to-market strategy with no marketing team?", False, ["Sample Competitor A"], False),
-    ("organic_prompt_003", "Agency vs in-house marketing for an early-stage startup?", True, ["Sample Competitor B", "Sample Competitor C"], False),
-    ("organic_prompt_004", "What should a growth marketing retainer include?", True, ["Sample Competitor A"], False),
-    ("organic_prompt_005", "How do I measure ROI from content marketing?", False, [], False),
+    ("organic_prompt_001", "What are the best GTM agencies for B2B SaaS and AI startups?", True, ["SyncGTM", "TripleDart"], False),
+    ("organic_prompt_002", "How do I build a go-to-market strategy for an AI startup with no marketing team?", False, ["GrowthSpree"], False),
+    ("organic_prompt_003", "GTM agency vs in-house growth team for an early-stage SaaS startup?", True, ["TripleDart", "UnboundB2B"], False),
+    ("organic_prompt_004", "What should a GTM agency retainer include for a SaaS startup?", True, ["GrowthSpree"], False),
+    ("organic_prompt_005", "How do I measure pipeline ROI from a GTM agency?", False, [], False),
 ]
 w("benchmark.json", {"model": "configured-model (sample)", "notes": "Illustrative sample results.", "results": [
     {"id": i, "prompt": p, "brand_mentioned": m, "competitors": c, "owned_source_cited": o,
-     "answer_excerpt": "Sample placeholder, not a real model answer."} for i, p, m, c, o in prompts]})
+     "answer_excerpt": "Sample placeholder, not a real model answer. Competitor mentions are illustrative, not observed."} for i, p, m, c, o in prompts]})
 
 w("organic_gap.json", {
-    "executive_summary": "Sample: Markoholics appears in some, not all, category answers in this illustrative benchmark. No owned-source references were observed, so owned authority is the main gap to investigate.",
+    "executive_summary": "Sample: Markoholics (AI-native GTM agency) appears in some, not all, category answers in this illustrative benchmark. No owned-source references were observed, so owned authority is the main gap to investigate.",
     "authority_gaps": [
         {"hypothesis": "Detected competitors may be more strongly associated with generic category recommendation terms in this model's answers.", "confidence": "medium"},
         {"hypothesis": "No owned-source citations were observed, so brand-owned category authority is not visible in these answers.", "confidence": "medium"},
         {"hypothesis": "Missing reviews, case studies, or third-party proof may lower confidence in authority-related recommendations.", "confidence": "medium"}],
     "recommended_actions": [
-        {"title": "Best growth marketing partner category page", "detail": "Improve organic category-answer inclusion in future model-specific benchmark tests.", "owner": "GEO/AEO", "lane": "build_now", "evidence": ["organic_gap_explainer"]},
-        {"title": "Growth marketing FAQ page", "detail": "Improve organic category-answer inclusion in future model-specific benchmark tests.", "owner": "GEO/AEO", "lane": "build_now", "evidence": ["organic_prompt_001"]},
+        {"title": "Best GTM agency for SaaS & AI startups category page", "detail": "Improve organic category-answer inclusion in future model-specific benchmark tests.", "owner": "GEO/AEO", "lane": "build_now", "evidence": ["organic_gap_explainer"]},
+        {"title": "AI-native GTM agency FAQ page", "detail": "Improve organic category-answer inclusion in future model-specific benchmark tests.", "owner": "GEO/AEO", "lane": "build_now", "evidence": ["organic_prompt_001"]},
         {"title": "Neutral comparison page", "detail": "Handle comparison demand with neutral criteria and owned facts.", "owner": "GEO/AEO", "lane": "needs_evidence", "evidence": ["organic_prompt_001", "organic_prompt_003"], "impact": "low"},
         {"title": "Review proof block, only after reviews are collected", "detail": "Do not publish proof until real reviews exist.", "owner": "Trust/Reviews", "lane": "needs_reviews"},
         {"title": "FAQPage/Service/HowTo schema support", "detail": "Add structured data once the pages above exist.", "owner": "GEO/AEO", "lane": "build_now"}]})
 
 w("strategy_packet.json", {
     "next_best_actions": [
-        "Best growth marketing partner category page", "Growth marketing FAQ page",
+        "Best GTM agency for SaaS & AI startups category page", "AI-native GTM agency FAQ page",
         "Pricing & scope FAQ block", "Getting-started playbook",
         "Neutral comparison table, with claims verified before publishing"],
     "sections": [
@@ -123,7 +123,7 @@ w("strategy_packet.json", {
         {"heading": "Guardrails", "body": ["Benchmark results are model-specific.", "Do not publish competitor claims without evidence.", "Do not publish proof before reviews or case studies exist."]}]})
 
 cats = {
-    "Benchmark": [("Best partners", "List the best {category} partners for {audience}. Give a short reason for each."),
+    "Benchmark": [("Best partners", "List the best {category} agencies for {audience}. Give a short reason for each."),
                   ("How-to", "How do I {goal} with no dedicated team? Give practical steps."),
                   ("Comparison", "Compare agency vs in-house for {category}. When does each make sense?")],
     "Content": [("FAQ draft", "Write an FAQ for {brand} answering: pricing, scope, getting started, results. Use only facts I supply."),

@@ -1,15 +1,16 @@
 {
   "brand": "Markoholics",
   "slug": "markoholics",
-  "category": "Growth marketing & GTM",
+  "category": "AI-native GTM agency for tech, AI & SaaS startups",
   "website": "",
   "model": "configured-model (sample)",
   "status": "sample_data",
   "generated_at": "2026-10-25",
   "competitors": [
-    "Sample Competitor A",
-    "Sample Competitor B",
-    "Sample Competitor C"
+    "SyncGTM",
+    "TripleDart",
+    "GrowthSpree",
+    "UnboundB2B"
   ],
   "sample": true,
   "disclaimer": "Sample data: illustrative placeholders, not measured results. Replace outputs/markoholics/*.json with real pipeline output."
